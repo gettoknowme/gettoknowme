@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: #2f3035;
+    background-image: url(images/BG.jpeg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.63);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main {
+    height: 450px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    height: 100px;
+}
+
+h1 {
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
+    padding-top: 50px;
+}
+
+table {
+    width: 400px;
+    height: 10px;
+} 
+
+table, th, td {
+    border: 1px solid #000 
+}
+
+/* td {
+    font-size: 10px;
+} */
+
+tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.322);
+}
+
+tr:nth-child(odd) {
+    background-color:white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 15px;
+}
